@@ -5,10 +5,8 @@
     },
     "weather": [{
                 "id":300,
-                "main":
-                "Drizzle",
-                "description":
-                "light intensity drizzle",
+                "main": "Drizzle",
+                "description": "light intensity drizzle",
                 "icon":"09d"
                 }],
     "base":"stations",
@@ -38,6 +36,5 @@
         "sunset":1485794875
     },
     "id":2643743,
-    "name":"London",
-    "cod":200
+    "name":"London"
 }
