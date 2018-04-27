@@ -9,10 +9,7 @@ Clone or download the repo onto your machine and open it in Xcode.
 
 ### Prerequisites
 
-* Xcode 9.2
+* Xcode 9.3
 * Swift 4.1
-
-## Built With
-
 
 ## Acknowledgments
