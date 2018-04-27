@@ -11,7 +11,7 @@ import Foundation
 class APIManager {
     let stubDataURL = "https://raw.githubusercontent.com/cjbatin/Swift4-Decoding-JSON-Using-Codable/master/WeatherForecast/StubData/londonWeather.json"
 
-    func getWeather(withId id: Int, completion: @escaping (_ weather: CurrentWeather?, _ error: Error?) -> Void) {
+    func getWeather(completion: @escaping (_ weather: CurrentWeather?, _ error: Error?) -> Void) {
         getJSONFromURL(urlString: stubDataURL) { (data, error) in
             if let error = error {
                 print("Failed to get data")
