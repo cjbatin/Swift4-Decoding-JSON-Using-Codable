@@ -6,7 +6,7 @@
 //  Copyright © 2018 Batin. All rights reserved.
 //
 
-struct WeatherDetails {
+struct WeatherDetails: Codable {
     let id: Int
     let main: String
     let description: String

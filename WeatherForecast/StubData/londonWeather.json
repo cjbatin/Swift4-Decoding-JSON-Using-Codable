@@ -1,4 +1,6 @@
 {
+    "id":2643743,
+    "name":"London",
     "coord": {
         "lon":-0.13,
         "lat":51.51
@@ -34,7 +36,5 @@
         "country":"GB",
         "sunrise":1485762037,
         "sunset":1485794875
-    },
-    "id":2643743,
-    "name":"London"
+    }
 }

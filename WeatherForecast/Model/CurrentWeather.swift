@@ -6,9 +6,9 @@
 //  Copyright © 2018 Batin. All rights reserved.
 //
 
-struct CurrentWeather {
+struct CurrentWeather: Codable {
     let coord: Coord
-    let weather: WeatherDetails
+    let weather: [WeatherDetails]
     let base: String
     let main: Main
     let visibility: Int

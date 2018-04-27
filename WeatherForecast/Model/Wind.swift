@@ -6,7 +6,7 @@
 //  Copyright © 2018 Batin. All rights reserved.
 //
 
-struct Wind: Codable {
+struct Wind: Codable: Codable {
     let speed: Double
     let deg: Double
 }
