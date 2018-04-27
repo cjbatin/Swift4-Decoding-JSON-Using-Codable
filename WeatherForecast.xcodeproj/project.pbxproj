@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5122266720931FF80022178E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5122266620931FF80022178E /* APIManager.swift */; };
 		FC1C27812080EB4E0049EDB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C27802080EB4E0049EDB8 /* AppDelegate.swift */; };
 		FC1C27832080EB4E0049EDB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1C27822080EB4E0049EDB8 /* ViewController.swift */; };
 		FC1C27862080EB4E0049EDB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1C27842080EB4E0049EDB8 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5122266620931FF80022178E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		FC1C277D2080EB4E0049EDB8 /* WeatherForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1C27802080EB4E0049EDB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC1C27822080EB4E0049EDB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5122266520931FE10022178E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5122266620931FF80022178E /* APIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		FC1C27742080EB4E0049EDB8 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +123,7 @@
 		FC1C277F2080EB4E0049EDB8 /* WeatherForecast */ = {
 			isa = PBXGroup;
 			children = (
+				5122266520931FE10022178E /* API */,
 				FC1C27B12080F19A0049EDB8 /* Model */,
 				FC1C27AE2080EBBD0049EDB8 /* StubData */,
 				FC1C27802080EB4E0049EDB8 /* AppDelegate.swift */,
@@ -302,6 +313,7 @@
 			files = (
 				FC1C27B92080F3B90049EDB8 /* Main.swift in Sources */,
 				FC1C27BD2080F42B0049EDB8 /* Clouds.swift in Sources */,
+				5122266720931FF80022178E /* APIManager.swift in Sources */,
 				FC1C27832080EB4E0049EDB8 /* ViewController.swift in Sources */,
 				FC1C27BB2080F4180049EDB8 /* Wind.swift in Sources */,
 				FC1C27B52080F1CF0049EDB8 /* Coord.swift in Sources */,
