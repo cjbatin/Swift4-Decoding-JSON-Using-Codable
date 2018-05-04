@@ -13,11 +13,8 @@ class APIManager {
 
     func getWeather(completion: @escaping (_ weather: CurrentWeather?, _ error: Error?) -> Void) {
         getJSONFromURL(urlString: stubDataURL) { (data, error) in
-            if let error = error {
+            guard let data = data, error == nil else {
                 print("Failed to get data")
-                return completion(nil, error)
-            }
-            guard let data = data else {
                 return completion(nil, error)
             }
             self.createWeatherObjectWith(json: data, completion: { (weather, error) in
