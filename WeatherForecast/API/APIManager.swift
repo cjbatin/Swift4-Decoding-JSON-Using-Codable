@@ -52,7 +52,9 @@ extension APIManager {
 
     private func createWeatherObjectWith(json: Data, completion: @escaping (_ data: CurrentWeather?, _ error: Error?) -> Void) {
         do {
-            let weather = try JSONDecoder().decode(CurrentWeather.self, from: json)
+            var decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
+            let weather = try decoder.decode(CurrentWeather.self, from: json)
             return completion(weather, nil)
         } catch let error {
             print("Error creating current weather from JSON because: \(error.localizedDescription)")
