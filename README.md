@@ -1,7 +1,7 @@
 # Weather Forecast
 
 An example project that accompanies my tutorial on decoding JSON using Codable in
-Swift 4. **Don't forget to link back to the tutorial.**
+Swift 4. http://blog.pusher.com/swift-4-decoding-json-codable/
 
 ## Getting Started
 
